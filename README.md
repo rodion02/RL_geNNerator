@@ -60,8 +60,8 @@ branch template:
 <pre>
 
 <span style="color: red">main </span>|
-     | ------------->  <span style="color: red"> FullNNGeneration </span>----------------> <span style="color: blue"> </span>
-     |<span style="color: green">                                                          | /* Здесь разработка кастомной среды 
+     | ------------->  <span style="color: red"> FullNNGeneration </span>----------------> <span style="color: blue"> fullNNGenerationEnv </span>
+     |<span style="color: green">                                                                           | /* Здесь разработка кастомной среды 
      |                 /* В этой ветке хранятся чистовые скрипты                           |
      |                   для реализованного алгоритма генерации всей нейросети             |
      |                   агентом сразу (а не послойно)                                     |
@@ -69,27 +69,6 @@ branch template:
      |</span>  
      |
      |
-     |
-     |
-     |
-     | ------------->  <span style="color: red"> fft_detector </span>
-     | <span style="color: green">
-     |                 /* this script scan 2.38-2.52 GHz spectrum
-     |                    It can be usefull for drone detection by spectrum
-     |                    fft_detector.grc, fft_detector.py, required files
-     |                 */
-     |</span> 
-     |
-     |
-     |
-     |
-     |
-     |
-     | ------------->  <span style="color: red"> xml2yml </span>
-     | <span style="color: green">
-     |                 /* there is python script for converting xml to yml
-     |                 */
-     |</span> 
      |
      |
      |
