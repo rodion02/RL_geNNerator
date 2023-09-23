@@ -46,3 +46,60 @@ Just the best<br>
 Проводим обучение полученной модели
 И возвращаем тоже самое что в пункте 1, только от агента мы получаем нейросетевую архитектуру целиком
 
+# Структура репозитория
+branch template:
+<pre>
+     | ------------->  <span style="color: red"> name </span>
+     | <span style="color: green">
+     |                 /* description
+     |                 */
+     |</span> 
+
+</pre>
+# Repo tree
+<pre>
+
+<span style="color: red">main </span>|
+     | ------------->  <span style="color: red"> FullNNGeneration </span>----------------> <span style="color: blue"> </span>
+     |<span style="color: green">                                                          | /* Здесь разработка кастомной среды 
+     |                 /* В этой ветке хранятся чистовые скрипты                           |
+     |                   для реализованного алгоритма генерации всей нейросети             |
+     |                   агентом сразу (а не послойно)                                     |
+     |                 */                                                                  | */
+     |</span>  
+     |
+     |
+     |
+     |
+     |
+     | ------------->  <span style="color: red"> fft_detector </span>
+     | <span style="color: green">
+     |                 /* this script scan 2.38-2.52 GHz spectrum
+     |                    It can be usefull for drone detection by spectrum
+     |                    fft_detector.grc, fft_detector.py, required files
+     |                 */
+     |</span> 
+     |
+     |
+     |
+     |
+     |
+     |
+     | ------------->  <span style="color: red"> xml2yml </span>
+     | <span style="color: green">
+     |                 /* there is python script for converting xml to yml
+     |                 */
+     |</span> 
+     |
+     |
+     |
+     |
+     |
+     |
+     | ------------->  <span style="color: red"> guides_and_docs </span>
+     | <span style="color: green">
+     |                 /* there is some guides and documentation 
+     |                 */
+     |</span> 
+
+</pre>
