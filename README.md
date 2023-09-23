@@ -59,7 +59,7 @@ branch template:
 <pre>
 
 <span style="color: red">main </span>|
-     | ------------->  <span style="color: red"> FullNNGeneration ---------------------------------------------------------> fullNNGenerationEnv  </span>
+     | ------------->  <span style="color: red"> FullNNGeneration ----------------------------------------------------> fullNNGenerationEnv  </span>
      |<span style="color: green">                                                                                     | /* Здесь разработка кастомной среды 
      |                 /* В этой ветке хранятся чистовые скрипты                           |
      |                   для реализованного алгоритма генерации всей нейросети             |
