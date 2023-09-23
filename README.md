@@ -1,5 +1,5 @@
 # RL_geNNerator
-Just the best
+Just the best<br>
 Алгоритмы работы RL системы 
 
 # Варианты:
