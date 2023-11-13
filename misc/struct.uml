@@ -1,0 +1,23 @@
+@startuml
+!define RECTANGLE class
+!define ARROW ->
+
+package "main" {
+  RECTANGLE main
+}
+
+package "FullNNGeneration" {
+  RECTANGLE FullNNGeneration
+}
+
+package "FullNNGenerationEnv" {
+  RECTANGLE FullNNGenerationEnv
+}
+
+package "guides_and_docs" {
+  RECTANGLE guides_and_docs
+}
+
+main ARROW FullNNGeneration: -------------> FullNNGenerationEnv
+main ARROW guides_and_docs: -------------> guides_and_docs
+@enduml

@@ -1,0 +1,20 @@
+@startuml
+title Neural Network Generation Architecture
+
+class User {
+  +Sends Dataset()
+}
+
+class Server {
+  +Finds optimal Neural Network()
+}
+
+class Agent {
+  +Returns Animation and Trained Neural Network File()
+}
+
+User --> Server: Sends Dataset
+Server --> Agent: Finds optimal Neural Network
+Agent --> User: Returns Animation and Trained Neural Network File
+
+@enduml
